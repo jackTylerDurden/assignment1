@@ -1,0 +1,31 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose",
+    "compile": "babel public/src --presets @babel/react --out-dir public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackTylerDurden/assignment1.git"
+  },
+  "author": "Tanmay Deshpande (824646024)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackTylerDurden/assignment1/issues"
+  },
+  "homepage": "https://github.com/jackTylerDurden/assignment1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-react": "^7.8.3"
+  }
+}

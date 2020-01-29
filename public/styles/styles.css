@@ -1,0 +1,12 @@
+body{
+    font-family : Ariel,Halvetica,sans-serif;
+    font-size: 1em;
+    line-height: 2em;    
+    width:960px;
+    margin:20px auto;   
+}
+
+#photo{
+    width:300px;
+    height:400px;
+}
