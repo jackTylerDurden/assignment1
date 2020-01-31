@@ -1,5 +1,5 @@
 let name = "Tanmay Deshpande";
-let description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+let description = "My name is Tanmay Deshpande. I am a graduate student at San Diego State University pursuing my masters in Computer Science. I have 5 years of experience in developing web based apps on the cloud based Salesforce.com platform. I have done 5 certifications.";
 let gitHubRepo = "https://www.github.com/jackTylerDurden";
 let photoUrl = "photo.jpg";
 
@@ -8,7 +8,7 @@ const element = (
         <h1>{name}</h1>
         <img id="photo" src={photoUrl}></img>
         <p>{description}</p>
-        <a target="_blank" href={gitHubRepo}>View My Github Repo</a>
+        <a class="button" target="_blank" href={gitHubRepo}>View My Github Repo</a>
     </div>
 );
 

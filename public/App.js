@@ -8,6 +8,7 @@ const element = React.createElement("div", {
   id: "photo",
   src: photoUrl
 }), React.createElement("p", null, description), React.createElement("a", {
+  class: "button",
   target: "_blank",
   href: gitHubRepo
 }, "View My Github Repo"));
