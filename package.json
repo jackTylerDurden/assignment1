@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon -w server server/server.js",
-    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose",
+    "watch": "babel public/src --presets @babel/react --out-dir public --watch --verbose",    
     "compile": "babel public/src --presets @babel/react --out-dir public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,11 +21,14 @@
   "homepage": "https://github.com/jackTylerDurden/assignment1#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3",
-    "@babel/preset-react": "^7.8.3"
+    "@babel/preset-react": "^7.8.3",
+    "babel-watch": "^7.0.0"
   }
 }

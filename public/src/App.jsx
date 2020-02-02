@@ -5,10 +5,16 @@ let photoUrl = "photo.jpg";
 
 const element = (
     <div id="parentDiv">
-        <h1>{name}</h1>
-        <img id="photo" src={photoUrl}></img>
-        <p>{description}</p>
-        <a class="button" target="_blank" href={gitHubRepo}>View My Github Repo</a>
+        <h1 id="name">{name}</h1>
+        <div id="photoDiv">
+            <img id="photo" src={photoUrl}></img>
+        </div>
+        <div id="descDiv">
+            <p>{description}</p>
+        </div>
+        <div id="buttonDiv">
+            <a className="button" target="_blank" href={gitHubRepo}>View My Github Repo</a>
+        </div>
     </div>
 );
 
